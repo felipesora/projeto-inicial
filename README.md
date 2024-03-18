@@ -8,7 +8,7 @@
 
 ### ALUNO:
 ```
-- Nome : 
+- Nome : Felipe Sora 
 - Git :
-- Instituição de Ensino :
+- Instituição de Ensino : Fiap
 ```
