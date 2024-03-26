@@ -1,0 +1,62 @@
+
+
+/*Este é um comentário de linha!*/
+/*
+    Este é um comentário de Bloco
+!*/
+
+/*Anatomia de uma regra CSS*/
+/*
+    Seletor {
+        Propriedade: Valor;
+    }
+
+/* Exemplo de Regra CSS completa*/
+
+    
+
+     /*Exemplo de seletores*/
+     h1 {
+        color: red;
+        text-align: center;
+     }
+
+     /*Seletores de classe*/
+     .link {
+        
+        border: 2px solid rgba(255, 0, 0, 0.74);
+        display: inline-block;
+        margin: 0 2% ;
+        background-color:rgba(255, 0, 0, 0.200);
+        padding: 5px 5px;
+        width: 15%;
+        transition: all 0.4s ease-out;
+       
+        &:hover{
+            background-color: rgba(255, 0, 0, 0.500);
+        }
+
+
+        /*Nesting elements*/
+         a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            
+           
+            /*Nesting elements*/
+            img{
+                display: inline-block;
+                width: 25%;
+            }
+
+        }
+     }
+
+     /*Seletores de ID*/
+     #menu ul{
+        list-style: none;
+        text-align: center;
+     }
+
+     
