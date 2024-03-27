@@ -13,25 +13,21 @@
 
 /* Exemplo de Regra CSS completa*/
 
-    
-
      /*Exemplo de seletores*/
      h1 {
         color: red;
         text-align: center;
      }
 
-     #cabecalho{
+      /* #cabecalho{
         background-image: url("../img/img-01-banner-1280×640.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
         background-size: cover ;
-     }
+     } */
 
-
-
-     /*Seletores de classe*/
+    /*Seletores de classe*/
      .link {
         
         border: 2px solid rgba(255, 0, 0, 0.74);
@@ -67,5 +63,9 @@
         list-style: none;
         text-align: center;
      }
+    /*Cp1 */
 
+   header{
+    background-color: blue;
+   }
      
