@@ -15,7 +15,7 @@
 
      /*Exemplo de seletores*/
      h1 {
-        color: red;
+        color: rgb(0, 0, 0);
         text-align: center;
         font-family: serif;
      }
@@ -30,17 +30,17 @@
 
     /*Seletores de classe*/
      .link {
-        
-        border: 2px solid rgba(255, 0, 0, 0.74);
+        /* 255,0,0.074 */
+        border: 1px solid rgba(80, 80, 80);
         display: inline-block;
         margin: 0 2% ;
-        background-color:rgba(255, 0, 0, 0.200);
-        padding: 5px 5px;
+        background-color:rgb(80, 80, 80);
+        padding: 10px;
         width: 15%;
         transition: all 0.4s ease-out;
        
         &:hover{
-            background-color: rgba(255, 0, 0, 0.500);
+            background-color: rgba(65, 65, 65, 0.959)
         }
 
         /*Nesting elements*/
@@ -84,4 +84,4 @@
         line-height: 1.5cm;
     }
 
-    #menu link
+    
