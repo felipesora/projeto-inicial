@@ -78,7 +78,7 @@
     font-weight: bold;
    }
 
-    /* não fiz o 4 */
+   
 
     p{
         color: green
@@ -88,4 +88,7 @@
         border-top: 2px solid red;
     }
 
+    .container{
+        margin-bottom: 20px;
+    }
     
